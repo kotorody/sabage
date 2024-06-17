@@ -72,7 +72,7 @@ body {
   font-size: 23px;
   font-style: normal;
   font-weight: 400;
-  line-height: 56px;
+  line-height: 60px;
   margin-top: 40px;
 }
 
@@ -85,12 +85,13 @@ body {
 }
 
 .ca {
-  width: 320px;
+  color: red;
+  width: 340px;
   height: 70px;
-  background: linear-gradient(90deg, #0a1d37 0%, #2c3e50 100%);
+  /*background: linear-gradient(90deg, #0a1d37 0%, #2c3e50 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  mix-blend-mode: plus-darker;
+  mix-blend-mode: plus-darker;*/
   font-family: Helvetica;
   font-size: 56px;
   font-style: normal;
@@ -139,7 +140,7 @@ body {
 .枠内項目詳細 {
   color: #0a1d37;
   width: 100%;
-  font-size: 18px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -162,12 +163,12 @@ body {
 }
 
 .ea {
-  width: 320px;
+  width: 340px;
   height: 70px;
-  background: linear-gradient(90deg, #0a1d37 0%, #2c3e50 100%);
+  /*background: linear-gradient(90deg, #0a1d37 0%, #2c3e50 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  mix-blend-mode: plus-darker;
+  mix-blend-mode: plus-darker;*/
   font-family: Helvetica;
   font-size: 56px;
   font-style: normal;
@@ -195,9 +196,10 @@ body {
 }
 
 .勝ち方タイトル {
+  width: 100%;
   color: #0a1d37;
   font-family: "Hiragino Kaku Gothic StdN";
-  font-size: 24px;
+  font-size: 34px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -205,8 +207,9 @@ body {
 }
 
 .勝ち方詳細 {
+  width: 100%;
   color: #0a1d37;
-  font-size: 18px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -231,4 +234,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.大事 {
+  color: red;
 }
